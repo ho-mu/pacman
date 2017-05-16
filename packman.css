@@ -43,6 +43,19 @@
 	height: 55px;
 	z-index:-1;
 }
+.verticalWall{
+	color:blue;
+	font-weight:bold;
+	font-size:24px;
+	vertical-align:top;
+	display:inline-block;
+	line-height: 100%
+
+}
+p{
+	display:inline-block;
+	margin-top:10px;
+}
 .dot{
 	color: yellow;
 	vertical-align: top;
@@ -50,7 +63,7 @@
 	z-index: -1;
 }
 .coin{
-	background-image: "./images/coin.png";
+	background-image: "./images/coin.gif";
 	z-index:2;
 	display:inline-block;
 	vertical-align:top;
@@ -83,4 +96,5 @@
 .row{
 	text-align: center;
 	z-index:-1;
+	/*display:inline-block;*/
 }
