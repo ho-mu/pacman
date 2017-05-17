@@ -57,7 +57,7 @@
 					boardHTMLstr += "<div class='board blank'></div>"
 				}
 				else if(board[i][c] == 8){
-					boardHTMLstr += "<div class='board verticalWall'><p>|</p></div>"
+					boardHTMLstr += "<div class='board verticalWall'><p></p></div>"
 				}
 				else if(board[i][c] == 9){
 					boardHTMLstr += "<div class='board horizontalWall'></div>"
